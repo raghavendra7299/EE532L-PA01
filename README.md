@@ -19,7 +19,7 @@ The target variable is a binary variable indicating whether a patient has diabet
 
 ## Objective
 
-1: Please pay attention to the comments of the Python file DLH_assignment.py. There are 10 questions designed for you. Please fill in the code snippets wherever necessary. 
+1: Please pay attention to the comments of the Python file pao1.py and rough.ipynb. There are 10 questions designed for you. Please fill in the code snippets wherever necessary. 
 
 2: Our trusty model (based on sklearn's LogisticRegression()) is stuck at an OK-ish 0.812 accuracy and the built-from-scratch is stuck at a 0.779 accuracy – not bad, but we're aiming for the stars, not just the clouds. So find some novel way to do pre-processing or use some novel loss function to improve the accuracy.
 
