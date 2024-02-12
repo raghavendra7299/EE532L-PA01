@@ -134,7 +134,7 @@ def load_and_fit():
 
     # Fit the model
     y_test_pred_sk = regress_fit_sklearn(X_train, y_train, X_test)
-    y_test_pred = regress_fit_sklearn(X_train, y_train, X_test)
+    y_test_pred = regress_fit(X_train, y_train, X_test)
 
     # Evaluate the accuracy
     test_accuracy_sk = accuracy_score(y_test, y_test_pred_sk)
