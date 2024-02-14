@@ -6,9 +6,13 @@
 
 ## Report
 Accuracy: 
+
 Methods used to improve accuracy:
+
 Bonus question:
- - Figures: ![fig](assets/logo.png)
+ - Figures: <div align="center">
+  <img src="assets/logo.png" alt="Logo" width="200">
+</div>
  - Observations:
 
 ## About
