@@ -10,7 +10,7 @@ Accuracy:
 Methods used to improve accuracy:
 
 Bonus question:
- - Figures: ![fig](assets/logo.png)
+![fig](assets/logo.png)
  - Observations:
 
 ## About
