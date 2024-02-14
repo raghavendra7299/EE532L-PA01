@@ -4,6 +4,13 @@
   <img src="assets/logo.png" alt="Logo" width="200">
 </div>
 
+## Report
+Accuracy: 
+Methods used to improve accuracy:
+Bonus question:
+ - Figures: ![fig](assets/logo.png)
+ - Observations:
+
 ## About
 The Pima Indians Diabetes Database is a widely used dataset in machine learning, particularly for binary classification tasks related to diabetes prediction. The dataset consists of 768 instances. There are 8 numeric predictive attributes. The attributes are as follows:
  - Pregnancies: Number of times pregnant
