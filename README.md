@@ -1,9 +1,5 @@
 # EE532L Deep Learning for Healthcare - Programming Assignment 01
 
-<div align="center">
-  <img src="assets/logo.png" alt="Logo" width="200">
-</div>
-
 ## Report
 Accuracy: 
 
