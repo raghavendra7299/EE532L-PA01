@@ -124,12 +124,17 @@ def regress_fit_sklearn(X_train, y_train, X_test):
 
 # Load the dataset
 def load_and_fit():
+
     df = pd.read_csv("diabetes.csv")
     X = df.drop("Outcome", axis=1)
+    X2 = np.array(X)
+    X2 = X2.T
     y = df["Outcome"]
-    X_train = X[:614]
-    X_test = X[614:]
+    X_train = X2[:,:614]
+    
+    X_test = X2[:,614:]
     y_train = y[:614]
+    
     y_test = y[614:]
 
     # Fit the model
