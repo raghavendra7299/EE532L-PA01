@@ -108,6 +108,9 @@ def regress_fit(X_train, y_train, X_test):
 # Logistic Regression using sklearn
 def regress_fit_sklearn(X_train, y_train, X_test):
 
+    X_train = X_train.T
+    X_test = X_test.T
+
     scaler = StandardScaler()
     X_train_scaled = scaler.fit_transform(X_train)
     X_test_scaled = scaler.transform(X_test)
