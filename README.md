@@ -10,9 +10,7 @@ Accuracy:
 Methods used to improve accuracy:
 
 Bonus question:
- - Figures: <div align="center">
-  <img src="assets/logo.png" alt="Logo" width="200">
-</div>
+ - Figures: ![fig](assets/logo.png)
  - Observations:
 
 ## About
