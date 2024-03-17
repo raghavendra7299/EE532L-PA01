@@ -1,13 +1,15 @@
 # EE532L Deep Learning for Healthcare - Programming Assignment 01
 
 ## Report
-Accuracy: 
+Accuracy: 0.77273
 
-Methods used to improve accuracy:
+Methods used to improve accuracy: Further experimentation and fine-tuning of hyperparameters could potentially improve the performance of our model. Evaluate our model on different data subsets to ensure it generalizes well. Try different activation functions to improve model performance. Use L1 or L2 regularization to prevent overfitting.
 
 Bonus question:
 ![fig](assets/logo.png)
- - Observations:
+ - Observations: The training accuracy shows a clear convergence trend around 1500 epochs, indicating that the model has effectively learned from the training data. The choice of a learning rate of 0.0001 appears to be suitable, as it has led to good convergence and performance metrics. Normalizing the features has also contributed positively to the model's performance, ensuring that each feature has an equal impact on the learning process. However, compared to Sklearn's logistic regression, which achieved a test accuracy of 0.81169, our implementation achieved a slightly lower test accuracy of 0.77273. Despite this difference, our implementation demonstrates competency in learning from the dataset and making predictions.
+![Screenshot 2024-03-17 211132](https://github.com/Electrical-Engineering-IIT-Tirupati/EE532L-PA01/assets/159757647/0f6eaf93-2adb-4f80-a673-6f5febfd005b)
+
 
 ## About
 The Pima Indians Diabetes Database is a widely used dataset in machine learning, particularly for binary classification tasks related to diabetes prediction. The dataset consists of 768 instances. There are 8 numeric predictive attributes. The attributes are as follows:
